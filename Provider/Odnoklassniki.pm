@@ -1,5 +1,20 @@
 package Dancer2::Plugin::Auth::OAuth::Provider::Odnoklassniki;
 
+# It's a rewritten 'Facebook.pm' to work with 'https://ok.ru'.
+# 
+# To configure this add something like:
+#
+#     Odnoklassniki:
+#       tokens:
+#         client_id: '...'
+#         client_secret: '...'
+#         application_key: '...'
+#       method: 'users.getCurrentUser'
+#       format: 'json'
+#       fields: 'email,name,gender,birthday,location,uid,pic_full'
+#
+# to your providers configuration.
+
 use strict;
 use parent 'Dancer2::Plugin::Auth::OAuth::Provider';
 
