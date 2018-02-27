@@ -1,6 +1,6 @@
 package Dancer2::Plugin::Auth::OAuth::Provider::VKontakte;
 
-# It's a rewritten 'Facebook.pm'.
+# It's a rewritten 'Facebook.pm' to work with 'https://vk.com'.
 # 
 # To configure this add something like:
 #
@@ -33,7 +33,7 @@ sub config { {
 			# If you want the email to be sent you must use 'email' scope.
 			# Other user data should be requested with 'fields' configuration option.
             scope         => 'email',
-			display       => 'popup',
+	    display       => 'popup',
         }
     }
 } }
