@@ -1,9 +1,9 @@
 # vkontakte-and-odnoklassniki-providers-for-dancer2-oauth-plugin
-A hardly rewritten Facebook provider to work with two Russian social networks - VKontakte and Odnoklassniki. And a slightly modified Providers package of this http://search.cpan.org/~blom/Dancer2-Plugin-Auth-OAuth-0.13/lib/Dancer2/Plugin/Auth/OAuth.pm plugin for Dancer2 framework.
+A hardly rewritten 'Facebook.pm' provider to work with two Russian social networks - VKontakte and Odnoklassniki. And a slightly modified 'Provider.pm' package of this http://search.cpan.org/~blom/Dancer2-Plugin-Auth-OAuth-0.13/lib/Dancer2/Plugin/Auth/OAuth.pm plugin for Dancer2 framework.
 
 I liked the plugin pretty much when used it with my webpage. But it was unable to handle with Russian sites mentioned above. I made an effort to make the plugin work with those two. Fortunately, I have succeded, and now can publish my efforts. I hope someone may find them useful.
 
-Configuration of Vk and Ok is as simple as all other supported providers. Just copy VKontakte.pm and Odnoklassniki.pm into Providers directory and replace Providers.pm with my version and add something like the following to your providers and you all set. So here is my working configuration of the whole plugin:
+Configuration of Vk and Ok is as simple as all other supported providers. Just copy 'VKontakte.pm' and 'Odnoklassniki.pm' into 'Provider' directory and replace 'Provider.pm' with my version and add something like the following to your providers and you all set. So here is my working configuration of the plugin:
 
 <pre>
 plugins:
