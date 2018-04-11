@@ -1,5 +1,7 @@
 package Dancer2::Plugin::Auth::OAuth::Provider::MailRU;
 
+# https://mail.ru provider
+
 use strict;
 use parent 'Dancer2::Plugin::Auth::OAuth::Provider';
 
