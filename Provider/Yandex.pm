@@ -5,7 +5,6 @@ use parent 'Dancer2::Plugin::Auth::OAuth::Provider';
 
 use HTTP::Request;
 use LWP::UserAgent;
-use JSON::XS ();
 
 sub config { {
     version => 2,
@@ -18,7 +17,7 @@ sub config { {
         authorize => {
             response_type => 'code',
             scope         => 'login:birthday login:email login:info login:avatar',
-			display		=> 'popup',
+	    display	  => 'popup',
         }
     }
 } }
