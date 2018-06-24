@@ -1,7 +1,7 @@
 # the-4-most-popular-Russian-sites-providers-for-dancer2-plugin-auth-oauth
 A hardly rewritten 'Facebook.pm' provider to work with four Russian sites - VKontakte [https://vk.com], Odnoklassniki [https://ok.ru], Mail.ru [https://mail.ru] and Yandex [http://www.yandex.ru]. And a slightly modified 'Provider.pm' package of this http://search.cpan.org/~blom/Dancer2-Plugin-Auth-OAuth-0.13/lib/Dancer2/Plugin/Auth/OAuth.pm plugin for Dancer2 framework.
 
-I liked the plugin pretty much when used it with my webpage. But it was unable to handle with Russian sites mentioned above. I made an effort to make the plugin work with those four. Fortunately, I have succeded, and now can publish my efforts. I hope someone may find them useful.
+I liked the plugin pretty much when used it with my webpage. But it was unable to handle Russian sites mentioned above. I made an effort to make the plugin work with those four. Fortunately, I have succeded, and now can publish my efforts. I hope someone may find them useful.
 
 Configuration is as simple as all other supported providers. Just copy the files to their appropriate locations and you all set. So here is my working configuration of the plugin:
 
@@ -55,3 +55,5 @@ plugins:
 </pre>
 
 Please, send me feedback on problems discovered, but remember I've made 4 Russian sites providers only. This magnificient plugin was written by another person. Use CPAN search to get more information.
+
+P.S. These files now are part of the main distribution.
